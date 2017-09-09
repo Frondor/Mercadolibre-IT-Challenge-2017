@@ -1,0 +1,52 @@
+Operaciones Aritmeticas
+
+0-9 Introduce este número en la pila
++   Suma: Obtiene a y b, e ingresa a+b
+-   Resta: Obtiene a y b, e ingresa b-a
+*   Multiplicatión: Obtiene a y b, e ingresa a*b
+/   División entera: Obtiene a y b, e ingresa b/a, redondeado a la baja. Si a es cero, pregunta al usuario qué resultado desea.
+%   Módulo: Obtiene a y b, e ingresa el resto de la división entera b/a. Si a es cero, pregunta al usuario qué resultado desea.
+
+
+Logica
+
+!   NOT: Obtiene un valor. Si es cero, ingresa 1; si no, ingresa cero.
+`   Mayor que: Obtiene a y b, e ingresa 1 si b>a, o cero en caso contrario.
+
+
+Movimiento
+
+>   Moverse a la derecha
+<   Moverse a la izquierda
+^   Moversehacia arriba
+v   Moversehacia abajo
+?   Moverse en una dirección aleatoria
+#   Trampolín: Omite la siguiente celda
+
+
+Condiciones
+
+_   Obtiene un valor; moverse derecha si valor=0, o a la izquierda si no
+|   Obtiene un valor; moverse hacia abajo si valor=0, o hacia arriba si no
+
+
+Caracteres
+
+"   Empieza el modo cadena: ingresa cada carácter ASCII hasta que encuentre el siguiente "
+
+
+Operaciones con valores de pila
+
+:   Duplica el valor en la cima de la pila
+\   Intercambia los dos valores en la cima de la pila
+$   Obtiene un valor de la pila
+.   Obtiene un valor y lo muestra como entero
+,   Obtiene un valor y lo muestra como carácter ASCII
+
+
+Extra
+
+p   Almacenar un valor para uso posterior. (Obtiene y, x y v, y cambia el carácter en la posición (x, y) del codigo por el carácter con el valor ASCII v)
+g R ecuperar datos almacenados. (Obtiene y y x, y luego ingresa el valor ASCII del carácter que se encuentra en esa posición en el programa)
+
+@   Fin de programa
