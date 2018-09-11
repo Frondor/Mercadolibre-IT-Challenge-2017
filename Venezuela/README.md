@@ -14,7 +14,13 @@
 
 # Método
 
-Eran largas horas de la noche, no quería programar más así que grafiqué la pared en [Google Sheets](https://docs.google.com/spreadsheets/d/1ELs8_OlV6TqAoXJrOphpQaSXuxFMvV4P41t3vny-UWg) y conté tanto lo rojo como lo blanco :joy:  jaja
+~Eran largas horas de la noche, no quería programar más así que grafiqué la pared en [Google Sheets](https://docs.google.com/spreadsheets/d/1ELs8_OlV6TqAoXJrOphpQaSXuxFMvV4P41t3vny-UWg) y conté tanto lo rojo como lo blanco :joy:  jaja~
+
+### Edit 11/9/2018:
+Una persona me contactó para conocer la solución de este problema programáticamente. Quedó subida en el `index.js` de este directorio.
+
+Básicamente la idea es crear una matriz para luego recorrerla como lo haría la máquina.
+Para mi comodidad, tomé una versión rotada a 180º de la imagen según la letra del ejercicio y el array de números lo revertí para poder manejar la matríz más facilmente.
 
 # Solución
 
